@@ -8,6 +8,9 @@ module "catalogue" {
   PORT                   = 8080
   IS_PRIVATE_IB          = true
   LB_RULE_PRIORITY       = 101
+  APP_VERSION            = var.APP_VERSION
+  NEXUS_USER             = var.NEXUS_USER
+  NEXUS_PASS             = var.NEXUS_PASS
 }
 
 output "INSTANCE_IDS" {

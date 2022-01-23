@@ -1,6 +1,11 @@
 @Library('roboshop') _
 
-nodejs(
+// nodejs(
+//     COMPONENT         : 'catalogue',
+//     LABEL             : 'WORKSTATION'
+// )
+
+nodejs-immutable(
     COMPONENT         : 'catalogue',
     LABEL             : 'WORKSTATION'
 )
