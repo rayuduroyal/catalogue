@@ -13,4 +13,7 @@ provider "aws" {
 module "ami" {
   source                 = "git::https://github.com/rayuduroyal/roboshop.git/terraform-ami"
   component              = "catalogue"
+  APP_VERSION            = var.APP_VERSION
 }
+
+variable "APP_VERSION" {}
