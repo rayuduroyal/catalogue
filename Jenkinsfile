@@ -5,8 +5,14 @@
 //     LABEL             : 'WORKSTATION'
 // )
 
-nodejs-immutable(
+// nodejs-immutable(
+//     COMPONENT         : 'catalogue',
+//     LABEL             : 'WORKSTATION'
+// )
+
+docker(
     COMPONENT         : 'catalogue',
     LABEL             : 'WORKSTATION'
 )
+
 

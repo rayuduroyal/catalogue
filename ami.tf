@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "terraform.01"
-    key    = "terraform-ami/cart/terraform.tfstate"
+    key    = "terraform-ami/catalogue/terraform.tfstate"
     region = "us-east-1"
   }
 }
